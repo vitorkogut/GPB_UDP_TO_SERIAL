@@ -44,4 +44,8 @@ If you are using an arduino for a external custom dashboard the process is reall
 All you need to do is listen for serial data and process it. After putting your COM port and connecting (GUI) a TEST message will be sent to verify the conenction, no need to worry about it. 
 After that a datagram defined in line 143 will be sent, fell free to modify it, in the arduino side, just create a string from the incoming buffer and split it at the commas, then use those values for servos, leds or anything else.
 
-[use case example in video!](https://youtube.com/shorts/fW0gZF4tQHk?feature=share)
+<h3> 
+  
+  [use case example in video!](https://youtube.com/shorts/fW0gZF4tQHk?feature=share) 
+
+</h3> 
