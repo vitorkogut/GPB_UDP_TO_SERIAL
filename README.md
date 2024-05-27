@@ -13,7 +13,7 @@ GPBikes connection status = Connection status with GP Bikes UDP server, can be:
 - Connected (simulation stopped): The UDP connection is up, but the game engine is stopped (normal in menu)
 - Disconnected: if your game is open and you get this status, check you UDP server (https://forum.piboso.com/index.php?topic=6063.0) and the variables under 'SEVER CONFIG' in the code (they should be exactly the same) 
 
-Serial data PORT: If you are using a custom external dash that supports serial data you can set their adress in here (COM10, COM02, COM12, ...), there will be a datagram example so you can build your own dash, dont worry!
+Serial data PORT: If you are using a custom external dash that supports serial data you can set their adress in here (COM10, COM02, COM12, ...)
 
 <h2>Code structure</h2>
 
