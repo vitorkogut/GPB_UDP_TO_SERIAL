@@ -36,7 +36,7 @@ This code only covers the basic data, mostly engine and angle stuff You can foll
 
 If you need extra details, you can find the C struct here: https://gp-bikes.com/downloads/gpb_example.c
 
-For data not on the table: Just calculate the byte offset, if the value you need is declared after other 5 float values (at the struct), just offset the position by `sizeOf(float)` * 5
+For data not on the table: Just calculate the byte offset, if the value you need is declared after other 5 float values (at the struct named SPluginsBikeData_t), just offset the position by `sizeOf(float)` * 5
 
 
 <h2>Serial data</h2>
